@@ -1,0 +1,5 @@
+t=float(input("Digite o tempo:"))
+v=float(input("Digite o valor:"))
+ta=float(input("Digite o taxa:"))
+p=v + (v* (ta / 100) * t)
+print("O valor final da prestação é",'%.2f'%p)
